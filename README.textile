@@ -1,5 +1,312 @@
 h1. Kyle's Secret Interviewing Techniques
 
-Idea for a talk based on a conversation with Mike (NovusTrio?).
+Idea for a talk based on a conversation with Mike (NovusTrio?).  Mike was put
+into a lead position where he was responsible for interviewing people for his
+team.  He felt he had little experience in this area and wasn't offered any
+support from his organization.  This conversation lead to me sharing my
+experiences, which lead to the idea of sharing them more widely.
+
+
+h2. Note to self: Use Concrete Examples
+
+Don't just talk about the approaches abstractly, back each one up with
+an example from a real interview, or actual questions that I've asked.
+This will give the audience a much better idea about what they can do 
+themselves and honestly, it's ok with me if they take the actual questions
+and techniques and apply them themselves.
+
+h1. Interview Stories
+
+h3. Being Interviewed by Mario.
+
+Back in 1999 I interviewed for a Unix system programmer position at a company
+in Philadelphia.  This interview turned out to be influential in how I thought
+about interviewing and being interviewed for the rest of my career.  I was
+interviwed by a few technical resources, and was able to answer their questions
+about Unix, the shell and C++.  I was feeling pretty comfortable with things,
+then I was taken to talk to the development manager, Mario.  Mario started off
+with a few questions to break the ice, I can't really remember what they were,
+but I do remember what he did next.  He asked me a fairly straight forward
+programming question and I talked through a solution off the top of my head.
+
+Then he said "What if you couldn't use that library function there.", and while
+he said it, he stood up.  He took another thing away: "what if it had to run in
+constant time", raising his voice a bit and putting his hands on the table.
+Next: "Ok, now you can't use that data structure, you can't use a map", and he
+raised the volume and stress level in his voice. 
+
+I was actually feeling fear, feeling stress at this point.  I wasn't easily
+coming up with answers quickly and I could tell.  I was offering ideas for which
+direction to go in but no clear and straightforward appraoches.
+
+Finally, just about standing over me, leaning very far across the table, he
+said "But what if you can't dynamically allocate any memory!".  He wasn't quite
+shouting, but it felt pretty close.
+
+"Er, well, I don't know what I'd do in that situation.  I'd have to go back
+to an algorithims book and see if what I could find, but I don't know."
+
+The angry tone in his voice and his agressive stance instantly melted away.
+"Thank you, that's what I was looking for".
+
+The interview wrapped up and I left the office feeling both energized and a bit
+drained.  Based on how the last interview went I wasn't very confident that I
+was going to get the position.  I was impressed enough by his interview that
+I told people I knew about it.
+
+h3. Mr. King
+
+This is not his real name, I may have been having a bad day...but he did
+exhibit a lot of interviewing anti-patterns.
+
+Mr King had flown up from Florida, no doubt at some expense, to interview for a
+senior java developer position at my company.  We interviewed in pairs and I
+was part of the second pair to talk to him.  He seemed to have a bit of an 
+attitude, and I later found out that when offered coffee or water before
+the first interview he declined, but then as the first session wrapped up
+he must not have been very impressed and shot back at them: "Ok, send the
+next person in, Oh and I'll take a cup of coffee."  This litle gimpse of
+arrogance didn't go over well with the first two interviewers.
+
+During our session, he seemed very technically competitent, very knowledgable
+about Java and J2EE.  Even though I don't use them much any more, when we asked
+him the puzzle question, instead of discussing it, he responded with "Oooh,
+I've got one, why won't a candle burn on the Space Shuttle".  Playing along we
+talked through what he had asked us, he seemed a bit dissaponted, and then he
+confessed "I don't like being asked puzzle questions in interviews, so I always
+have one ready to ask the interviewers."
+
+How he reacted was a negtative to me - it would have been ok if he'd started
+out by saying that he didn't feel that puzzle questions were relevant, but
+instead he used the situation to aggressively challenge us on our interviewing
+process.
+
+Then I moved on to one of my favorite questions: 
+
+  Me:  "What books have you found influential in your career?"  
+
+  Him: "I really liked the Pragmatic Programmer".  
+
+I thoght, this is great, I really liked that book too.  Maybe this guy will
+start to show his stuff...
+
+  Me:  "What did you find influential about it?  What is something you took away
+        from that book?"  
+
+  Him: "In that book they recommend you learn a new programming language every
+        year."
+
+Now I'm thinking fantastic, here is a person who is pushing himself to learn,
+to get outside his comfort zone, that's something I liked about the book too...
+
+  Me:  "Great!  How long ago did you read it?"
+
+  Him (tone of voice falling off a cliff): "three  years   ago...."
+
+At this point he had figured out where I was going and that I was unlikely
+to not go there...and I did:
+
+  Me: "So, how many languages have you loked at since then?"
+
+  Him: "none."
+
+Keep in mind I wouldn't have rejected him over this one exchange.  And if this
+kind of thing happens to you, there are ways to 'recover' from it: talk about
+why, maybe you've been busy with family and plan to start, maybe work has been
+crazy, or you've been reading other books and have two or three languages that
+you want to look into.  Be aware that if you do, I'd ask you which 2 or 3 they
+are and why you've chosen those particular languages.
+
+Mr King balked at the first set of interviewers request for a coding exercise.
+
+Mike DeLaurentis: "The thing that stood out to me was when we asked him to do a coding exercise on the board, and he let out a deep sigh, and said, "really?".  I think he did eventually write some stuff on the board, but he was pretty reluctant.  It shocked me that he would fly up from Florida for an interview and then be uncooperative."
+
+James Ahlborn: "the best part during our interview was when he "turned the tables on us".  we asked him some sort of logic question (i don't remember which), and he couldn't really do it (i'm not sure if he couldn't or didn't even attempt it).  but then he shot back with his own logic puzzler (the question about "can a candle burn in the space shuttle", or something like that).  which kyle handily answered.  at some point in the exchange he mentioned that he didn't like logic puzzles and when asked them he always asked his own back at the interviewer."
+
+Pete Michel: "Mike is dead on.  he really seemed insulted that we would ask him questions.  i'm pretty sure he thought he had the job before he walked through the door."
+
+h3. Jethro
+
+When I asked him to do the pseudo code example, he froze up.  He stood at the
+whiteboard, marker in hand and didn't write anything.  I kept trying to talk
+him into writing something "I'm only looking for logic, you don't have to write
+valid source code".
+
+
+h2. Presenting My Accomplishments To Me on your Resume
+
+His name was a sound followed by a networking technology acronym.
+
+A co-worker was impressed with a candidate's resume and noticing that the candidate
+and I had worked together.
+
+h3. Searching The Internet
+
+Something that I try to do if I have time is google you on the internet.  I
+take it as a negative (slight) if a candidate that works with open source
+technologies and is absent on the net.
+
+For software developers, I will look for any open source projects they've
+written, any technical or programming blog posts, any community involvement.
+If I find a project or sample code I'll often ask about it during the
+interview.  Chances are that if the candidate was passionate and open enough to
+put some of their code out there that some of that passion will come out in the
+interview.
+
+h3. Jonathan Tran
+
+Asking about OCaml got Jon to take the job.  He laughed out loud when I asked
+him "What the heck is that" in response to his using a list-comprehension.
+
+h1. Slide Notes
+
+h2. Goals
+
+h3. Evaluate the Candidate, not just yes/no
+
+You may have multiple positions open, the candidate may be way above the needs
+of the position (and would become boored once in it).  Attempting to determine
+is a yes/no
+
+h3. Sell yourself, your team, your company
+
+Why do you do this?   I'll tell you why I think you should do this.
+
+There are only a few outcomes that can result from the interview itself.  The
+first is the best: the candidate is a good fit, all involved say yes and the
+candidate joins the team.  The rest result in the candidate not joining the
+team or the company.  You may reject them for various reasons, as hard as we
+try there is still a lot of random chance involved in the interviewing process,
+maybe the interview didn't go well becuase they were having a bad day, maybe
+it was because you were having a bad day.  Maybe it went well but fell apart 
+when they were negotiating for compensation, maybe they had a crisis or their
+current employer made them a counter offer they couldn't refuse.
+
+In the event the candidate doesn't join your organization, there is still
+something that I want to gain out of the interview.  I want the candidate to be
+inspired so that when they go back to their coworkers, their friends, and their
+network, they'll talk about my team and my company.  I want them to tell other
+people that we're hiring, that they think we're a place they would have liked to
+join, that you should come talk to us.
+
+h2. My Favorite Questions
+
+h3. 'Probing Skill or Knowledge'
+
+This part is just a conversation.   This is not an exercise in trivia or api
+memorization.  I start with questions about the things they've worked on
+or in, I may ask about their favorite class from school - then I follow it up
+with asking why it was their favorite.  If its an area I know a lot about,
+I'll ask about the things I think are fundamental on the subject
+
+h3. 'What books or resources have you found influential?'
+
+I look for passion, for depth, for being able to back it up with a reason.  I
+don't make people defend their choices, I want to know why it was influential,
+what it influenced and what you've changed since reading it - what of its
+advice or guidance they are following.
+
+It doesn't matter if its even technical, it could be about gardening, what I'm
+looking for in a developer is analytical skill, attention to the material.  It
+could be about gardening, and if it is, I'd want the interviwee to teach me 
+something about gardening.
+
+
+h3. 'What didn't I ask? What would you have wanted me to ask, or what would you want me to know about you?'
+
+h2. Testing Limits / Behavior
+
+
+h2. Closing
+
+Once you've decided you want the candidate, you will want to incrase the
+probably that they'll join the team - this will help you since you won't have
+to keep interviewing for that position, thus saving you time, and helping to
+ensure they make it through the transition from their current employer to you
+will help them feel good about the transition.
+
+Immediately offer to help them out, point them to resources for writing a letter of
+resignation, offer to coach them on what to say or do if their company makes a counter
+offer.  
+
+h2. My Stance on Puzzle Questions
+
+Some interviewers swear by these, I tend not to use them.  The idea is that you
+get a chance to see the candidate think out lout.  I think that these kinds of
+puzzle questions too often fallen back on for a yes/no decision.
+
+These can range from estimation puzzles:
+
+  How many piano tuners do you think there are in New York City?
+
+  What would happen if you dropped a bowling ball into the ocean?  
+  Would it sink?  How far?
+
+  You have 2 ropes that you know will burn for 1 hour each, though
+  the rate varies, each rope will burn reliabily for 60min.  You
+  have a lighter and these 2 ropes, how can you time 45min?
+
+  There is a 10' by 10' _square_ island with a 10' moat around
+  it:
+
+            +----------+
+            |          |
+            |  +----+  |
+            |  |    |  |
+            |  +----+  |
+            |          |
+            +----------+
+
+  Your friend is stuck on the island with a sprained ankle and cannot jump
+  nor swim.  You have 2 8' boards.  How can you rescue your friend.
+
+h2. Questions I don't ask
+
+Obviously you can't ask certin things: age, marriage status, if they have
+kids, anything that could be considered discriminatory.
+
+** Beyond that are there any questions I don't ask?
+
+h5. What is your greatest weakness?
+
+Why don't I like this one?  It seems like a great question on the surface, and
+how a candidate answers it can show you how self-reflective they are.  I think
+that it is difficult for people to self-evaluate, rather it is a rare person
+who can take a critical look at themselves.
+
+Many candidates, especially introverted technology workers, will struggle with
+this question and not have a great answer to it.  At least this is my
+experience.
+
+
+h5. What are all the difference constructors for TreeHashMap?
+
+I don't think that 'trivial pursuit api edition' has any value in evaluating
+a developer.  Our daily processes are built up off of Google searches and IDEs
+that do context aware code completion.  
+
+It is ok to ask about common gotchas that all developers should have run into,
+'how do you ensure you've closed resources'.
+
+h5. Tell me about a project or task or effort that failed and how you dealt with it.
+
+
+
+
+h2. Lists of questions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
